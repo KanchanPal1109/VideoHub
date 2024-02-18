@@ -1,0 +1,76 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+.side-menu {
+  width: 200px;
+  height: 100%;
+  background-color: rgb(60, 60, 60);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 60px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+}
+.no-data-image {
+  width: 450px; /* Adjust image width */
+  height: 350px; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Add margin below the image */
+}
+
+.side-menu ul {
+  list-style-type: none;
+  margin-top: 150px;
+  padding: 0;
+}
+
+.side-menu li {
+  border-bottom: 1px solid #444; /* Darker border for each menu item */
+}
+
+.side-menu li:last-child {
+  border-bottom: none; /* Remove border from the last menu item */
+}
+
+.side-menu li a {
+  display: flex;
+  align-items: center; /* Center the icon and text vertically */
+  padding: 15px 25px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s; /* Add transition effect */
+}
+
+.side-menu li a:hover {
+  background-color: #444; /* Darker background color on hover */
+}
+
+/* Icon styles */
+.side-menu .fas {
+  margin-right: 10px; /* Add spacing between the icon and text */
+}
+
+/* Dropdown menu styles */
+.sub-menu {
+  display: none; /* Hide dropdown menu by default */
+}
+
+.side-menu li:hover .sub-menu {
+  display: block; /* Show dropdown menu on hover */
+  position: absolute;
+  top: 0;
+  left: 200px; /* Position the dropdown menu */
+  background-color: #333; /* Dropdown menu background color */
+}
+
+.side-menu .sub-menu li {
+  border: none; /* Remove border from dropdown menu items */
+}
+
+.side-menu .sub-menu li a {
+  padding: 10px 20px; /* Adjust padding for dropdown menu items */
+}
+
+/* Icon styles for dropdown menu */
+.side-menu .sub-menu .fas {
+  margin-right: 10px; /* Add spacing between the icon and text */
+}

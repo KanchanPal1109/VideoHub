@@ -1,0 +1,14 @@
+.no-data-container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .no-data-message {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+  }
+  

@@ -1,0 +1,58 @@
+.register-container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensures the form takes up the full width of the container */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    width: 100%; /* Ensures the form group takes up the full width of the container */
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    margin-top: 10px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+    width: 100%; /* Ensures the input fields take up the full width of the form group */
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .btn-register {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Ensures the button takes up the full width of the container */
+  }
+  
+  .btn-register:hover {
+    background-color: #0056b3;
+  }
+  
